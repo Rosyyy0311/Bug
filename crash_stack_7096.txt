@@ -1,0 +1,6 @@
+java.lang.NullPointerException
+	at android.os.Parcel.readException(Parcel.java:1546)
+	at android.os.Parcel.readException(Parcel.java:1493)
+	at android.media.IAudioService$Stub$Proxy.startBluetoothSco(IAudioService.java:1632)
+	at android.media.AudioManager.startBluetoothSco(AudioManager.java:1522)
+	at org.mozilla.gecko.GeckoAppShell.setCommunicationAudioModeOn(GeckoAppShell.java:3)
